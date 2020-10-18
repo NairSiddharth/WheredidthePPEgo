@@ -3,7 +3,7 @@ from github import Github
 
 g = Github("NairSiddharth","MasterSamurai2423")
 
-base = g.get_repo("NairSbiddharth/COVID-19")
+base = g.get_repo("NairSiddharth/COVID-19")
 contents = base.get_contents("csse_covid_19_data/csse_covid_19_daily_reports_us")
 filepaths = []
 for file in contents:
